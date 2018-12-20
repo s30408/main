@@ -1,3 +1,13 @@
+#font1{
+  font-family: 'Do Hyeon', sans-serif;
+}
+#font2{
+  font-family: 'Stylish', sans-serif;
+body{
+  background-color:#e0e0eb;
+  background-size: cover;
+  min-width: 755px
+}
 #jowon{
   width: 1100px;
   height: 200px;
@@ -32,14 +42,6 @@
   transform:translateX(190px);
 }
 
-#zks1{
-   width: 200px;
-   height:200px;
-   background: orange;
-   border-radius:30px;
-  font-weight: bold;
-  transform:translateX(190px) translatey(20px);
- }
 #bus{
   width: 250px;
   height:170px;
@@ -85,4 +87,46 @@
   border-radius:30px;
   margin:0px;
   transform:translateX(40px) translatey(20px);}
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+}
+ }
+ a {
+   text-decoration: none; color: black;
+ }
+
+ #zks1 a{
+   text-align: center;
+   display: inline-block;
+   padding:30px;
+   width: 130px;
+   height:130px;
+   background: orange;
+   border-radius:30px;
+text-decoration: none;
+font-size: 30px;
+ text
+}
+#zks1 a:hover{
+  transform: translateY(45px);
+transition:all 0.7s;
+padding:30px;
+width: 130px;
+height:130px;
+background: ;
+border-radius:30px;
+
+}
+#zks1 li{
+  text-align: center;
+  display: inline-block;
+  padding-left:6rem;
+  padding-top: 1rem;
 }
