@@ -102,3 +102,15 @@ border-radius:30px;
   padding-left:6rem;
   padding-top: 1rem;
 }
+#cpdbr{
+  text-align:center;
+  transform:translateX(-150px);
+
+}
+#rhks{
+  text-align:center;
+  transform:translateX(-300px);
+}
+#rhkdks{
+   padding-left: 15rem;
+}
